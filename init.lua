@@ -12,4 +12,9 @@ vim.keymap.set('n', '<c-s>', ':w<CR>')
 vim.keymap.set('n', '<c-t>', ':ToggleTerm<CR>')
 vim.keymap.set('i', '<c-s>', '<esc>:w<CR>')
 
+vim.keymap.set('n', '<c-h>', ':winc h<CR>')
+vim.keymap.set('n', '<c-j>', ':winc j<CR>')
+vim.keymap.set('n', '<c-k>', ':winc k<CR>')
+vim.keymap.set('n', '<c-l>', ':winc l<CR>')
+
 terminal_mappings = true
